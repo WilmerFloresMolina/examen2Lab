@@ -154,7 +154,7 @@ int main(int argc, char const *argv[]){
 					x=(tarjeta[i]-48)*2;
 
 					if(x>=10){
-						y =x-9;
+						y =x-10+1;
 						suma = suma +y;
 					}
 
